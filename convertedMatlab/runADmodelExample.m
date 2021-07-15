@@ -24,7 +24,7 @@ f = figure('DefaultAxesFontSize',12,...
     'Position', [20 20 1800 900]);
 sp = ["SB", "IP", "Th1", "Th2", "Th17", "Th22", "IL4", ...
     "IL13", "IL17", "IL22", "IL31", "IFNg", "TSLP", "OX40L"];
-tb =  readtable('python_res.csv');
+tb =  readtable('./CSVs/python_res.csv');
 for idx = 1:size(Y, 2)
     subplot(3, 5, idx);
     plot(T, Y(:, idx), 'Color', 'k', 'LineWidth', 2, 'DisplayName', 'matlab');
