@@ -18,4 +18,4 @@
 
 
 # Morris Finited Difference based sensitvity analysis 
-![Linear Regression](./figures/regAnalysis.png)
+![Linear Regression](./figures/morris.png)
