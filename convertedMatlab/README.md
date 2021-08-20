@@ -15,3 +15,7 @@
 
 # SA based on Linear regression
 ![Linear Regression](./figures/regAnalysis.png)
+
+
+# Morris Finited Difference based sensitvity analysis 
+![Linear Regression](./figures/regAnalysis.png)
